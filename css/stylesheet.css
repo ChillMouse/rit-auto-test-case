@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tahoma', 'Chandas', sans-serif;
+}
+
+.tr{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    background: #f19f81;
+}
+
+.td{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    width: 33.6667%;
+    background: #8ff19d;
+    transition: background .3s ease, font-size .3s ease-in-out;
+}
+.td:hover{
+    background: aliceblue;
+    font-size: 28px;
+}
+
+#table{
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+#targetBlock {
+    display: none;
+    border: 2px solid black;
+    border-radius: 15px;
+    max-width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+#answerTask{
+    max-width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 24px;
+}
